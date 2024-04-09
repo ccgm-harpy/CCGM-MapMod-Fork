@@ -1,0 +1,11 @@
+1. Add "using System.Net;" to top of file, under "System.Net.Http"
+2. Add defaultModes to BasePlugin.Setup function
+3. Call setupModes and setupMaps in BasePlugin.Setup function
+4. Copy ccgmGetRequest, getModeString, getMapString, isMapModServer, setupModes and setupMaps to BasePlugin Class
+5. Add mapModServer variable under mapnum variable in BasePlugin.registerCustomMaps function
+6. Add mapModServer variable to config.Contains("lobbymap") condition in BasePlugin.registerCustomMaps function
+7. Add mapModServer variable to selectCustomMaps.Value condition in BasePlugin.registerCustomMaps function
+8. Initialize defaultModes variable under defaultMaps
+9. Call setupModes and setupMaps in onJoinPatch function
+10. Comment out playerStartHook and ChatBoxHook
+11. Comment out MAPMOD_DISABLED environment variable condition in Load() override

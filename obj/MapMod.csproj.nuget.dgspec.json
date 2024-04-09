@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Luna\\Documents\\projects\\bepinex_plugins\\CrabGame.MapMod-0.7.5\\MapMod.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Luna\\Documents\\projects\\bepinex_plugins\\CrabGame.MapMod-0.7.5\\MapMod.csproj": {
+      "version": "0.7.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luna\\Documents\\projects\\bepinex_plugins\\CrabGame.MapMod-0.7.5\\MapMod.csproj",
+        "projectName": "MapMod",
+        "projectPath": "C:\\Users\\Luna\\Documents\\projects\\bepinex_plugins\\CrabGame.MapMod-0.7.5\\MapMod.csproj",
+        "packagesPath": "C:\\Users\\Luna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luna\\Documents\\projects\\bepinex_plugins\\CrabGame.MapMod-0.7.5\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luna\\Documents\\projects\\bepinex_plugins\\CrabGame.MapMod-0.7.5\\NuGet.Config",
+          "C:\\Users\\Luna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "BepInEx.IL2CPP": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[6.0.0-*, )"
+            },
+            "BepInEx.PluginInfoProps": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
